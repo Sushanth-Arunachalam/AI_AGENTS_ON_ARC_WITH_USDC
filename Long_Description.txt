@@ -1,0 +1,15 @@
+ARC × USDC Relief Portal is an AI-powered disaster relief platform that enables instant, transparent, and secure financial aid distribution using Circle’s Developer-Controlled Wallets and USDC stablecoin. Built for the Orchestrate What’s Next with AI Agents Hackathon, this solution combines AI agents, geofencing, and zero-knowledge verification to automate the entire process of identifying victims, validating eligibility, and executing payouts.
+
+During crises such as floods or earthquakes, relief funds often face delays, mismanagement, and fraud. ARC solves this by empowering organizations to define an affected area through geofencing, collect verified requests from victims within that zone, and perform AI-assisted review and approval of claims. Once approved, the system triggers USDC transfers via Circle’s Wallet API, providing an auditable, on-chain record of every transaction.
+
+The platform consists of three main components:
+
+Frontend Portal: A lightweight HTML interface for incident creation, victim verification, and payout management.
+
+Cloudflare Worker Backend: Acts as a secure proxy between the frontend and Circle APIs, ensuring credentials remain protected.
+
+Circle Wallet SDK: Manages wallet creation, token balances, and fund transfers.
+
+ARC can operate in two modes — a local mock mode for demonstrations and a live Circle mode that connects to real wallet infrastructure. It is built with Node.js, TailwindCSS, Cloudflare Workers, and Circle’s Developer SDK.
+
+By integrating AI, blockchain transparency, and privacy-preserving verification, ARC × USDC Relief Portal ensures that aid reaches verified victims faster, reduces human error, and eliminates corruption in fund disbursement. This project demonstrates how AI-driven orchestration and programmable finance can revolutionize global humanitarian relief systems.

@@ -1,0 +1,7 @@
+ARC × USDC Relief Portal
+
+Short Description:
+ARC × USDC Relief Portal is an AI-powered disaster relief platform that enables instant, transparent, and secure USDC payouts to verified victims using Circle’s Developer-Controlled Wallets.
+It combines geofencing, zero-knowledge verification, and AI agents to automate fund distribution — ensuring that only people within affected zones receive aid, while organizations maintain full transparency and control.
+
+Built with: Circle SDK • Cloudflare Workers • HTML • Node.js • AI Orchestration
